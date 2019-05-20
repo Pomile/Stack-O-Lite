@@ -1,0 +1,72 @@
+.-row-margin{
+    margin: 0!important;
+}
+.-brand-logo-padding{
+    padding-left: 20px;
+}
+
+.section-1, .section-2{
+    height: 100vh;
+}
+
+.section-1{
+    background-image: url('../images/bg-image.jpg');
+    background-size:  cover;
+}
+.-fs-1{
+    font-size: 1.5 rem;
+}
+
+.-fs-2{
+    font-size: 2.5 rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    padding-left: 10px;
+}
+
+h2, p {
+    color: white;
+    padding: 10px;
+    letter-spacing: 0.2rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .form-container {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+  }
+
+  .btn-1 {
+    padding: 10px 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #4169e1;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+    background-color: #4169e1;
+    cursor: pointer;
+  }
+  
+  .btn-1:hover {
+    background: #034388;
+  }
+  
+  
+
+@media (max-width: 600px){
+    .form-container {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+      }
+      
+}
+
